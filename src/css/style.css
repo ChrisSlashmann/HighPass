@@ -2574,7 +2574,7 @@ textarea {resize:horizontal;}
 
   #slide1 {
     display: grid;
-    grid-template-columns: repeat(8, minmax(70px, 94px));
+    grid-template-columns: repeat(8, minmax(75px, 94px));
     grid-template-rows: 295px 300px 300px;
     grid-template-areas: 
     "p1 p1 p2 p2 p3 p3 p91 p91"
@@ -2613,7 +2613,7 @@ textarea {resize:horizontal;}
 
   #slide2 {
     display: grid;
-    grid-template-columns: repeat(8, minmax(70px, 94px));
+    grid-template-columns: repeat(8, minmax(75px, 94px));
     grid-template-rows: repeat(3, 300px);
     gap: 30px;
     grid-template-areas: 
@@ -3096,10 +3096,6 @@ textarea {resize:horizontal;}
     padding-left: 21px;
     background-position: .5% 60%;
   }
-
-  .contacts__grid {
-    grid-template-columns: minmax(390px, 590px) minmax(300px, 342px);
-  } 
 }
 
 
